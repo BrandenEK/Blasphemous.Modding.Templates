@@ -1,0 +1,1 @@
+A template can be found for both Blaspehmous 1 and Blasphemous 2 mods
