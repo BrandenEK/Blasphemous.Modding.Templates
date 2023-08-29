@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageId>Blasphemous.Modding.Templates</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.1.0</PackageVersion>
     <Title>Blasphemous Modding Templates</Title>
     <Authors>Damocles</Authors>
     <Description>Templates to use when creating mods for Blasphemous 1 and 2</Description>
@@ -10,7 +10,7 @@
     <PackageProjectUrl>https://github.com/BrandenEK/Blasphemous.Modding.Templates</PackageProjectUrl>
 
     <PackageType>Template</PackageType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>net35;net6.0</TargetFrameworks>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>

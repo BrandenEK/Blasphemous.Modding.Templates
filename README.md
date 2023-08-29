@@ -1,1 +1,1 @@
-A template can be found for both Blaspehmous 1 and Blasphemous 2 mods
+Templates to use when creating mods for Blasphemous 1 and 2
