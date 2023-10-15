@@ -1,27 +1,27 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>disable</Nullable>
 
-    <TargetName>ModTemplate</TargetName>
+    <Title>Mod Template</Title>
     <Product>Mod Template</Product>
+    <Authors>Mod Creator</Authors>
     <Company>Mod Creator</Company>
+    <Description>A mod for Blasphemous 2</Description>
     <Version>0.1.0</Version>
+    
+    <TargetName>ModTemplate</TargetName>
+    <RepositoryUrl>https://github.com/Example</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BlasII.ModdingAPI" Version="0.1.0" />
     <PackageReference Include="BlasII.ModdingReferences" Version="1.0.5" />
     <PackageReference Include="Il2CppInterop.Runtime" Version="1.4.5" />
     <PackageReference Include="LavaGang.MelonLoader" Version="0.6.1" />
     <PackageReference Include="Lib.Harmony" Version="2.2.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="ModdingAPI">
-      <HintPath>..\lib\ModdingAPI.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
   <Target Name="Development" AfterTargets="PostBuildEvent">
