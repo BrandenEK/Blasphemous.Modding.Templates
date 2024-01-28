@@ -1,14 +1,13 @@
-﻿using ModdingAPI;
+﻿using Blasphemous.ModdingAPI;
 
-namespace Blasphemous.ModTemplate
+namespace Blasphemous.ModTemplate;
+
+public class ModTemplate : BlasMod
 {
-    public class ModTemplate : Mod
-    {
-        public ModTemplate() : base(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION) { }
+    public ModTemplate() : base(ModInfo.MOD_ID, ModInfo.MOD_NAME, ModInfo.MOD_AUTHOR, ModInfo.MOD_VERSION) { }
 
-        protected override void Initialize()
-        {
-            Log($"{PluginInfo.PLUGIN_NAME} has been initialized");
-        }
+    protected override void OnInitialize()
+    {
+        LogError($"{ModInfo.MOD_NAME} has been initialized");
     }
 }
