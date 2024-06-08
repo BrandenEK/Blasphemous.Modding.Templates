@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageId>Blasphemous.Modding.Templates</PackageId>
-    <PackageVersion>1.3.0</PackageVersion>
+    <PackageVersion>1.3.1</PackageVersion>
     <Title>Blasphemous Modding Templates</Title>
     <Authors>Damocles</Authors>
     <Description>Templates to use when creating mods for Blasphemous 1 and 2</Description>
