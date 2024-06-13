@@ -2,7 +2,7 @@
 
 namespace BlasII.ModTemplate;
 
-public class Main : MelonMod
+internal class Main : MelonMod
 {
     public static ModTemplate ModTemplate { get; private set; }
 
